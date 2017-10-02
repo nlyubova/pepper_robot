@@ -20,7 +20,7 @@
 	<joint name="CameraDepth_optical_frame_fixedjoint" type="fixed">
 		<parent link="CameraDepth_frame"/>
 		<child link="CameraDepth_optical_frame"/>
-		<origin rpy="-1.57079632679 0 -1.57079632679" xyz="0 0 0"/>
+		<origin rpy="-1.5936 -0.0161345 -1.57777" xyz="0 0 0"/>
 	</joint>
 	<link name="LHandTouchBack_frame"/>
 	<joint name="LHand/Touch/Back_sensor_fixedjoint" type="fixed">
@@ -117,7 +117,7 @@
 	<joint name="CameraDepth_sensor_fixedjoint" type="fixed">
 		<parent link="Head"/>
 		<child link="CameraDepth_frame"/>
-		<origin rpy="0 0 0" xyz="0.05138 0.039 0.1194"/>
+		<origin rpy="0 0 0" xyz="0.0708098 0.02 0.118115"/>
 		<axis xyz="0 0 0"/>
 	</joint>
 	<link name="SurroundingRightLaser_frame"/>
